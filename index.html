@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Protest+Guerrilla&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scorecard</title>
+</head>
+<body>
+    <h1>WELCOME TO 2024 BASKETBALL FINALS</h1>
+    <div class="background-container">
+        <div class="block1">
+            <h2 class="board-title">HOME</h2>
+            <div class="display-board1">
+                <div id="score-board1"></div>
+            </div>
+            <div class="btn-set1">
+                <button id="add-point-btn" onclick="addPoint()">+1</button>
+                <button id="add-point-btn" onclick="addPoint2()">+2</button>
+                <button id="add-point-btn" onclick="addPoint3()">+3</button>
+            </div>
+        </div>
+        
+
+        <div class="block2">
+            <h2 class="board-title">GUEST</h2>
+            <div class="display-board2">
+                <div id="score-board2"></div>
+            </div>
+            <div class="btn-set2">
+                <button id="add-point-btn" onclick="addPoint1a()">+1</button>
+                <button id="add-point-btn" onclick="addPoint2a()">+2</button>
+                <button id="add-point-btn" onclick="addPoint3a()">+3</button>
+            </div>
+        </div>
+        <!-- <button id="add-point-btn" onclick="resetPoint()">RESET</button> -->
+    </div>
+    <button id="add-point-btn" onclick="resetPoint()">RESET</button>
+    <script src="index.js"></script>
+</body>
+</html>

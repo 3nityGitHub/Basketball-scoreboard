@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background:#1B244A;
+}
+
+@font-face {
+    src: url("CursedTimerUlil-Aznm.ttf");
+    font-family: Cursed Timer ULiL;
+}
+
+h1 {
+    padding: 10px;
+    margin: 25px 0;
+    color: #faedcd;
+    font-family: 'Happy Monkey', system-ui;
+    font-family: 'Protest Guerrilla', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+.background-container{
+    background:#1d3557;
+    height: 500px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 10px auto;
+}
+.board-title {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #EEEEEE;
+    margin-bottom: 10px;
+}
+.display-board1{
+    width: 200px;
+    height: 190px;
+    background-color: black;
+    border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    
+    
+}
+
+.display-board2{
+    width: 200px;
+    height: 190px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+#score-board1 {
+    color: #F94F6D;
+    font-size: 8rem;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    letter-spacing: 0em;
+    /* border: 1px solid red; */
+ 
+}
+
+#score-board2 {
+    color: #F94F6D;
+    font-size: 8rem;
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    letter-spacing: 0em;
+    /* border: 1px solid red; */
+ 
+}
+
+.block1{
+    margin-right: 10px;
+}
+
+
+.block2{
+    margin-left: 10px;
+}
+
+.btn-set1 {
+    margin-top: 10px;
+}
+
+.btn-set2 {
+    margin-top: 10px;
+}
+#add-point-btn {
+    padding: 5px 15px;
+    border: 2px solid #9AABD8;
+    border-radius: 3px;
+    background: #1B244A;
+    color: #9AABD8;
+    margin: 2px;
+    font-size: 1rem;
+}
+#add-point-btn:hover {
+    cursor: pointer;
+    border: 3px solid #023e8a;
+}
+
